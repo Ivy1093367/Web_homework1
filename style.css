@@ -1,0 +1,579 @@
+body{
+    margin:0;
+}
+div{
+    /* Layout Properties */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 3006px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+h1{     
+    /* Layout Properties */
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    width: 274px;
+    height: 190px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 80px/95px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+h2{
+    font-size: 32px;
+    display: inline;
+    font-weight: bold;
+}
+.hr1{
+    position: absolute;
+    top: 254px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #000000;
+    opacity: 1;
+}
+.photo1_profile{
+    position: absolute;
+    top: 302px;
+    left: 360px;
+    width: 324px;
+    height: 324px;
+    /* UI Properties */
+    background: transparent url('img/photo-1536180931879-fd2d652efddc.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.profile_title_ch{
+    position: absolute;
+    /* Layout Properties */
+    top: 674px;
+    left: 360px;
+    width: 128px;
+    height: 48px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.profile_title_en{
+    position: absolute;
+    /* Layout Properties */
+    top: 680px;
+    left: 504px;
+    width: 101px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+}
+.profile_text1{
+    position: absolute;
+    top: 746px;
+    left: 360px;
+    width: 439px;
+    height: 108px;
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.profile_text2{
+    position: absolute;
+    top: 878px;
+    left: 360px;
+    width: 696px;
+    height: 108px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.hr2{
+    position: absolute;
+    /* Layout Properties */
+    top: 730px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.educational_background_ch{
+    position: absolute;
+    /* Layout Properties */
+    top: 1040px;
+    left: 360px;
+    width: 64px;
+    height: 48px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.educational_background_en{
+    position: absolute;
+    top: 1046px;
+    left: 440px;
+    width: 143px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+}
+.educational_background_text1{
+    position: absolute;
+    top: 1122px;
+    left: 360px;
+    width: 603px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.educational_background_text2{
+    position: absolute;
+    top: 1174px;
+    left: 360px;
+    width: 422px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.hr3{
+    position: absolute;
+    /* Layout Properties */
+    top: 1106px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.skills_wrap{
+    position: absolute;
+    top: 1274px;
+    left: 0px;
+    width: 1920px;
+    height: 460px;
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.skills_ch{
+    position: absolute;
+    top: 14px;
+    left: 882px;
+    width: 64px;
+    height: 48px;
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.skills_en{
+    position: absolute;
+    top: 20px;
+    left: 962px;
+    width: 84px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.hr4{
+    position: absolute;
+    top: 80px;
+    left: 462px;
+    width: 996px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+.line_v1{
+    position: absolute;
+    top: 120px;
+    left: 852px;
+    width: 0px;
+    height: 300px;
+    border: 1px solid #96A9C4;
+    opacity: 1;
+}
+.skills_text1{
+    position: absolute;
+    top: 100px;
+    left: 876px;
+    width: 200px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.skills_text2{
+    position: absolute;
+    top: 144px;
+    left: 878px;
+    width: 186px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.skills_text3{
+    position: absolute;
+    top: 188px;
+    left: 885px;
+    width: 114px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;;
+}
+.skills_text4{
+    position: absolute;
+    top: 232px;
+    left: 877px;
+    width: 176px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.skills_text5{
+    position: absolute;
+    top: 276px;
+    left: 885px;
+    width: 50px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.skills_text6{
+    position: absolute;
+    top: 320px;
+    left: 877px;
+    width: 180px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.skills_text7{
+    position: absolute;
+    top: 364px;
+    left: 885px;
+    width: 192px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.work_exp_ch{
+    position: absolute;
+    top: 1788px;
+    left: 360px;
+    width: 128px;
+    height: 48px;
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.work_exp_en{
+    position: absolute;
+    top: 1794px;
+    left: 504px;
+    width: 250px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+}
+.hr5{
+    position: absolute;
+    top: 1854px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.line_v2{
+    position: absolute;
+    top: 1870px;
+    left: 384px;
+    width: 0px;
+    height: 654px;
+    border: 1px solid #96A9C4;
+    opacity: 1;
+}
+.work_exp_text1{
+    position: absolute;
+    top: 1870px;
+    left: 408px;
+    width: 509px;
+    height: 36px;
+    text-align: left;
+    font: normal normal medium 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.photo2_work_exp{
+    position: absolute;
+    top: 1906px;
+    left: 408px;
+    width: 100px;
+    height: 100px;
+    background: transparent url('photo/hexschool.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.work_exp_text2{
+    position: absolute;
+    top: 2006px;
+    left: 408px;
+    width: 642px;
+    height: 150px;
+    text-align: left;
+    font: normal normal 300 20px/30px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.work_exp_text3{
+    position: absolute;
+    top: 2180px;
+    left: 408px;
+    width: 377px;
+    height: 36px;
+    text-align: left;
+    font: normal normal medium 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.work_exp_text4{
+    position: absolute;
+    top: 2240px;
+    left: 408px;
+    width: 370px;
+    height: 36px;
+    text-align: left;
+    font: normal normal medium 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.work_exp_text5{
+    position: absolute;
+    top: 2300px;
+    left: 408px;
+    width: 467px;
+    height: 36px;
+    text-align: left;
+    font: normal normal medium 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.work_exp_text6{
+    position: absolute;
+    top: 2360px;
+    left: 408px;
+    width: 423px;
+    height: 36px;
+    text-align: left;
+    font: normal normal medium 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.photo3_work_exp{
+    position: absolute;
+    top: 2396px;
+    left: 408px;
+    width: 100px;
+    height: 100px;
+    background: transparent url('photo/simtree.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.work_exp_text7{
+    position: absolute;
+    top: 2496px;
+    left: 408px;
+    width: 400px;
+    height: 30px;
+    text-align: left;
+    font: normal normal 300 20px/30px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.contact_wrap{
+    position: absolute;
+    top: 2606px;
+    left: 0px;
+    width: 1920px;
+    height: 400px;
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.contact_ch{
+    position: absolute;
+    top: 24px;
+    left: 782px;
+    width: 128px;
+    height: 48px;
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.contact_en{
+    position: absolute;
+    top: 30px;
+    left: 926px;
+    width: 320px;
+    height: 36px;
+    text-align: left;
+    font: normal normal medium 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.hr6{
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+.contact_text1{
+    position: absolute;
+    top: 104px;
+    left: 810px;
+    width: 311px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.contact_text2{
+    position: absolute;
+    top: 156px;
+    left: 847px;
+    width: 236px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.contact_text3{
+    position: absolute;
+    top: 208px;
+    left: 857px;
+    width: 207px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.contact_text4{
+    position: absolute;
+    top: 260px;
+    left: 696px;
+    width: 530px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.photo4_contact{
+    position: absolute;
+    top: 332px;
+    left: 864px;
+    width: 48px;
+    height: 48px;
+    background: transparent url('photo/facebook.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.photo5_contact{
+    position: absolute;
+    top: 332px;
+    left: 936px;
+    width: 48px;
+    height: 48px;
+    background: transparent url('photo/instagram.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.photo6_contact{
+    position: absolute;
+    top: 332px;
+    left: 1008px;
+    width: 48px;
+    height: 48px;
+    background: transparent url('photo/line.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+h1:hover, hr:hover, p:hover, img:hover{
+    border:solid #96A9C4;
+}
