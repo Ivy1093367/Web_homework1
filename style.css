@@ -574,6 +574,6 @@ h2{
     opacity: 1;
 }
 
-h1:hover, hr:hover, p:hover, img:hover{
+h1:hover, h2:hover,hr:hover, p:hover, img:hover{
     border:solid #96A9C4;
 }
